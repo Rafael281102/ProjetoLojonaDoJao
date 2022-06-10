@@ -52,15 +52,11 @@ namespace ProjetoLojonaDoJao
             this.precoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataCadastroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabelaprodutoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.lojonadojaoDataSet1 = new ProjetoLojonaDoJao.lojonadojaoDataSet();
+            this.tabelaprodutoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);     
             this.txCodigo = new System.Windows.Forms.TextBox();
             this.lojonadojaoDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.lojonadojaoDataSet = new ProjetoLojonaDoJao.lojonadojaoDataSet();
             this.tabelafuncioBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tabela_funcioTableAdapter = new ProjetoLojonaDoJao.lojonadojaoDataSetTableAdapters.tabela_funcioTableAdapter();
             this.tabelaprodutoBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.tabela_produtoTableAdapter = new ProjetoLojonaDoJao.lojonadojaoDataSetTableAdapters.tabela_produtoTableAdapter();
             this.btLimparPainel = new System.Windows.Forms.Button();
             this.btAtualizarProduto = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -69,9 +65,7 @@ namespace ProjetoLojonaDoJao
             this.btReloading = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaprodutoBindingSource1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSetBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelafuncioBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaprodutoBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -299,12 +293,10 @@ namespace ProjetoLojonaDoJao
             // tabelaprodutoBindingSource1
             // 
             this.tabelaprodutoBindingSource1.DataMember = "tabela_produto";
-            this.tabelaprodutoBindingSource1.DataSource = this.lojonadojaoDataSet1;
             // 
             // lojonadojaoDataSet1
             // 
-            this.lojonadojaoDataSet1.DataSetName = "lojonadojaoDataSet";
-            this.lojonadojaoDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+//            this.lojonadojaoDataSet1.DataSetName = "lojonadojaoDataSet";
             // 
             // txCodigo
             // 
@@ -315,31 +307,24 @@ namespace ProjetoLojonaDoJao
             // 
             // lojonadojaoDataSetBindingSource
             // 
-            this.lojonadojaoDataSetBindingSource.DataSource = this.lojonadojaoDataSet;
             this.lojonadojaoDataSetBindingSource.Position = 0;
             // 
             // lojonadojaoDataSet
             // 
-            this.lojonadojaoDataSet.DataSetName = "lojonadojaoDataSet";
-            this.lojonadojaoDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // tabelafuncioBindingSource
             // 
             this.tabelafuncioBindingSource.DataMember = "tabela_funcio";
-            this.tabelafuncioBindingSource.DataSource = this.lojonadojaoDataSet1;
             // 
             // tabela_funcioTableAdapter
             // 
-            this.tabela_funcioTableAdapter.ClearBeforeFill = true;
             // 
             // tabelaprodutoBindingSource
             // 
             this.tabelaprodutoBindingSource.DataMember = "tabela_produto";
-            this.tabelaprodutoBindingSource.DataSource = this.lojonadojaoDataSet1;
             // 
             // tabela_produtoTableAdapter
             // 
-            this.tabela_produtoTableAdapter.ClearBeforeFill = true;
             // 
             // btLimparPainel
             // 
@@ -449,9 +434,7 @@ namespace ProjetoLojonaDoJao
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaprodutoBindingSource1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSetBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lojonadojaoDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelafuncioBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabelaprodutoBindingSource)).EndInit();
             this.ResumeLayout(false);
@@ -476,12 +459,8 @@ namespace ProjetoLojonaDoJao
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtCadastro;
         private System.Windows.Forms.BindingSource lojonadojaoDataSetBindingSource;
-        private lojonadojaoDataSet lojonadojaoDataSet;
-        private lojonadojaoDataSet lojonadojaoDataSet1;
         private System.Windows.Forms.BindingSource tabelafuncioBindingSource;
-        private lojonadojaoDataSetTableAdapters.tabela_funcioTableAdapter tabela_funcioTableAdapter;
         private System.Windows.Forms.BindingSource tabelaprodutoBindingSource;
-        private lojonadojaoDataSetTableAdapters.tabela_produtoTableAdapter tabela_produtoTableAdapter;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.BindingSource tabelaprodutoBindingSource1;
         private System.Windows.Forms.TextBox txCodigo;

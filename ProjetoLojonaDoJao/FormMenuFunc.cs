@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProjetoLojonaoJao
+namespace ProjetoLojonaDoJao
 {
     public partial class FormMenuFunc : Form
     {
@@ -43,13 +43,7 @@ namespace ProjetoLojonaoJao
         }
 
         #region MediaSubMenu
-        private void button2_Click(object sender, EventArgs e)
-        {
-            R
-            
-
-            hideSubMenu();
-        }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -216,6 +210,13 @@ namespace ProjetoLojonaoJao
         private void button26_Click(object sender, EventArgs e)
         {
             hideSubMenu();
+        }
+
+        private void btRegistrarClientes_Click(object sender, EventArgs e)
+        {
+            RegistrarClientes rc = new RegistrarClientes();
+            //rc.MdiParent = this;
+            rc.Show();
         }
     }
 }

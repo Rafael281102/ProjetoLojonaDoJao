@@ -76,10 +76,10 @@
     <Compile Include="FormVender.Designer.cs">
       <DependentUpon>FormVender.cs</DependentUpon>
     </Compile>
-    <Compile Include="lojonadojaoDataSet.Designer.cs">
+    <Compile Include="InConnectedDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>lojonadojaoDataSet.xsd</DependentUpon>
+      <DependentUpon>InConnectedDBDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -117,16 +117,16 @@
     <EmbeddedResource Include="RegistrarClientes.resx">
       <DependentUpon>RegistrarClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="lojonadojaoDataSet.xsc">
-      <DependentUpon>lojonadojaoDataSet.xsd</DependentUpon>
+    <None Include="InConnectedDBDataSet.xsc">
+      <DependentUpon>InConnectedDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="lojonadojaoDataSet.xsd">
+    <None Include="InConnectedDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>lojonadojaoDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>InConnectedDBDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="lojonadojaoDataSet.xss">
-      <DependentUpon>lojonadojaoDataSet.xsd</DependentUpon>
+    <None Include="InConnectedDBDataSet.xss">
+      <DependentUpon>InConnectedDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

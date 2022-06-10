@@ -1,4 +1,4 @@
-﻿namespace ProjetoLojonaoJao
+﻿namespace ProjetoLojonaDoJao
 {
     partial class FormMenuFunc
     {
@@ -420,7 +420,7 @@
             this.btRegistrarClientes.Text = "Registrar Clientes";
             this.btRegistrarClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btRegistrarClientes.UseVisualStyleBackColor = true;
-            this.btRegistrarClientes.Click += new System.EventHandler(this.button2_Click);
+            this.btRegistrarClientes.Click += new System.EventHandler(this.btRegistrarClientes_Click);
             // 
             // btnMedia
             // 

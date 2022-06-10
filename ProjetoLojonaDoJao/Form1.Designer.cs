@@ -112,6 +112,7 @@ namespace ProjetoLojonaDoJao
             this.BotaoEntrar1.TabIndex = 18;
             this.BotaoEntrar1.Text = "ENTRAR";
             this.BotaoEntrar1.UseVisualStyleBackColor = false;
+            this.BotaoEntrar1.Click += new System.EventHandler(this.BotaoEntrar1_Click);
             // 
             // BotaoSair1
             // 

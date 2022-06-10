@@ -16,7 +16,7 @@ namespace ProjetoLojonaDoJao
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ProjetoLojonaoJao.FormMenuFunc());
+            Application.Run(new ProjetoLojonaDoJao.FormMenuFunc());
         }
     }
 }

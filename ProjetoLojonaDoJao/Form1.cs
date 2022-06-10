@@ -68,5 +68,10 @@ namespace ProjetoLojonaDoJao
         {
 
         }
+
+        private void BotaoEntrar1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

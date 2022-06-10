@@ -285,8 +285,8 @@ namespace ProjetoLojonaDoJao
 
         private void btVenderProduto_Click(object sender, EventArgs e)
         {
-            FormVender fv = new FormVender();
-            fv.Show();
+            //FormVender fv = new FormVender();
+            //fv.Show();
         }
 
         private void btSair_Click(object sender, EventArgs e)
@@ -302,9 +302,9 @@ namespace ProjetoLojonaDoJao
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'lojonadojaoDataSet1.tabela_produto' table. You can move, or remove it, as needed.
-            this.tabela_produtoTableAdapter.Fill(this.lojonadojaoDataSet1.tabela_produto);
+            //this.tabela_produtoTableAdapter.Fill(this.lojonadojaoDataSet1.tabela_produto);
             // TODO: This line of code loads data into the 'lojonadojaoDataSet1.tabela_funcio' table. You can move, or remove it, as needed.
-            this.tabela_funcioTableAdapter.Fill(this.lojonadojaoDataSet1.tabela_funcio);
+            //this.tabela_funcioTableAdapter.Fill(this.lojonadojaoDataSet1.tabela_funcio);
 
         }
 
@@ -313,7 +313,7 @@ namespace ProjetoLojonaDoJao
         {
             try
             {
-                this.tabela_produtoTableAdapter.Atualizar_Registros(this.lojonadojaoDataSet1.tabela_produto);
+                //this.tabela_produtoTableAdapter.Atualizar_Registros(this.lojonadojaoDataSet1.tabela_produto);
             }
             catch (System.Exception ex)
             {

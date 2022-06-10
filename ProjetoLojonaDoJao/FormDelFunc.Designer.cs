@@ -52,11 +52,11 @@ namespace ProjetoLojonaDoJao
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
-            this.label3.Location = new System.Drawing.Point(13, 122);
+            this.label3.Location = new System.Drawing.Point(32, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 17);
+            this.label3.Size = new System.Drawing.Size(59, 17);
             this.label3.TabIndex = 20;
-            this.label3.Text = "SENHA MASTER:";
+            this.label3.Text = "SENHA:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
@@ -85,9 +85,9 @@ namespace ProjetoLojonaDoJao
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label1.Location = new System.Drawing.Point(70, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 31);
+            this.label1.Size = new System.Drawing.Size(194, 31);
             this.label1.TabIndex = 22;
-            this.label1.Text = "Deletar Usuário";
+            this.label1.Text = "Deletar Cliente";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // BotaoConfrma1
