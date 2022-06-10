@@ -52,11 +52,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormDelFunc.cs">
+    <Compile Include="FormDelCli.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormDelFunc.Designer.cs">
-      <DependentUpon>FormDelFunc.cs</DependentUpon>
+    <Compile Include="FormDelCli.Designer.cs">
+      <DependentUpon>FormDelCli.cs</DependentUpon>
     </Compile>
     <Compile Include="FormMenuFunc.cs">
       <SubType>Form</SubType>
@@ -69,6 +69,12 @@
     </Compile>
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTabelaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTabelaCliente.Designer.cs">
+      <DependentUpon>FormTabelaCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="FormVender.cs">
       <SubType>Form</SubType>
@@ -92,14 +98,17 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormDelFunc.resx">
-      <DependentUpon>FormDelFunc.cs</DependentUpon>
+    <EmbeddedResource Include="FormDelCli.resx">
+      <DependentUpon>FormDelCli.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuFunc.resx">
       <DependentUpon>FormMenuFunc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTabelaCliente.resx">
+      <DependentUpon>FormTabelaCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormVender.resx">
       <DependentUpon>FormVender.cs</DependentUpon>

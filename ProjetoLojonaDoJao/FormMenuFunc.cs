@@ -47,14 +47,15 @@ namespace ProjetoLojonaDoJao
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
+            FormDelCli frmDelCli = new FormDelCli();
+            frmDelCli.Show();
             hideSubMenu();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
+            FormTabelaCliente frmTabelaCliente = new FormTabelaCliente();
+            frmTabelaCliente.Show();
             //..
             //your codes
             //..
@@ -217,6 +218,7 @@ namespace ProjetoLojonaDoJao
             RegistrarClientes rc = new RegistrarClientes();
             //rc.MdiParent = this;
             rc.Show();
+            hideSubMenu();
         }
     }
 }

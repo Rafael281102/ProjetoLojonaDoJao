@@ -21,5 +21,12 @@ namespace ProjetoLojonaDoJao
         {
 
         }
+
+        private void RegistrarClientes_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'inConnectedDBDataSet.Cidade' table. You can move, or remove it, as needed.
+            this.cidadeTableAdapter.Fill(this.inConnectedDBDataSet.Cidade);
+
+        }
     }
 }

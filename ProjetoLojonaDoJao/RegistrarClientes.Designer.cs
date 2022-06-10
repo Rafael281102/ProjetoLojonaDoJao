@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btAdicionarProduto = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -43,6 +44,15 @@
             this.label6 = new System.Windows.Forms.Label();
             this.dtpDataVenda = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
+            this.inConnectedDBDataSet = new ProjetoLojonaDoJao.InConnectedDBDataSet();
+            this.inConnectedDBDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.inConnectedDBDataSetBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.cidadeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.cidadeTableAdapter = new ProjetoLojonaDoJao.InConnectedDBDataSetTableAdapters.CidadeTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSetBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cidadeBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // btAdicionarProduto
@@ -116,13 +126,14 @@
             // 
             // cbCidade
             // 
-            this.cbCidade.DisplayMember = "Nome";
+            this.cbCidade.DataSource = this.cidadeBindingSource;
+            this.cbCidade.DisplayMember = "Nome_Cidade";
             this.cbCidade.FormattingEnabled = true;
             this.cbCidade.Location = new System.Drawing.Point(173, 178);
             this.cbCidade.Name = "cbCidade";
             this.cbCidade.Size = new System.Drawing.Size(162, 21);
             this.cbCidade.TabIndex = 39;
-            this.cbCidade.ValueMember = "ID_Cliente";
+            this.cbCidade.ValueMember = "Nome_Cidade";
             // 
             // label4
             // 
@@ -201,6 +212,30 @@
             this.label7.TabIndex = 49;
             this.label7.Text = "Data de Nascimento:";
             // 
+            // inConnectedDBDataSet
+            // 
+            this.inConnectedDBDataSet.DataSetName = "InConnectedDBDataSet";
+            this.inConnectedDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // inConnectedDBDataSetBindingSource
+            // 
+            this.inConnectedDBDataSetBindingSource.DataSource = this.inConnectedDBDataSet;
+            this.inConnectedDBDataSetBindingSource.Position = 0;
+            // 
+            // inConnectedDBDataSetBindingSource1
+            // 
+            this.inConnectedDBDataSetBindingSource1.DataSource = this.inConnectedDBDataSet;
+            this.inConnectedDBDataSetBindingSource1.Position = 0;
+            // 
+            // cidadeBindingSource
+            // 
+            this.cidadeBindingSource.DataMember = "Cidade";
+            this.cidadeBindingSource.DataSource = this.inConnectedDBDataSetBindingSource;
+            // 
+            // cidadeTableAdapter
+            // 
+            this.cidadeTableAdapter.ClearBeforeFill = true;
+            // 
             // RegistrarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -224,6 +259,11 @@
             this.Controls.Add(this.btAdicionarProduto);
             this.Name = "RegistrarClientes";
             this.Text = "RegistrarClientes";
+            this.Load += new System.EventHandler(this.RegistrarClientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.inConnectedDBDataSetBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cidadeBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -246,5 +286,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DateTimePicker dtpDataVenda;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.BindingSource inConnectedDBDataSetBindingSource;
+        private InConnectedDBDataSet inConnectedDBDataSet;
+        private System.Windows.Forms.BindingSource inConnectedDBDataSetBindingSource1;
+        private System.Windows.Forms.BindingSource cidadeBindingSource;
+        private InConnectedDBDataSetTableAdapters.CidadeTableAdapter cidadeTableAdapter;
     }
 }

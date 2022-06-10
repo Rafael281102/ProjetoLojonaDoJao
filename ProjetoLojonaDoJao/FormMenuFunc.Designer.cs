@@ -47,7 +47,7 @@
             this.panelMediaSubMenu = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btRemoverClientes = new System.Windows.Forms.Button();
             this.btRegistrarClientes = new System.Windows.Forms.Button();
             this.btnMedia = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
@@ -342,7 +342,7 @@
             this.panelMediaSubMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(32)))), ((int)(((byte)(39)))));
             this.panelMediaSubMenu.Controls.Add(this.button5);
             this.panelMediaSubMenu.Controls.Add(this.button4);
-            this.panelMediaSubMenu.Controls.Add(this.button3);
+            this.panelMediaSubMenu.Controls.Add(this.btRemoverClientes);
             this.panelMediaSubMenu.Controls.Add(this.btRegistrarClientes);
             this.panelMediaSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMediaSubMenu.Location = new System.Drawing.Point(0, 137);
@@ -386,23 +386,23 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button3
+            // btRemoverClientes
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
-            this.button3.Location = new System.Drawing.Point(0, 40);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(233, 40);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Remover Clientes";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btRemoverClientes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btRemoverClientes.FlatAppearance.BorderSize = 0;
+            this.btRemoverClientes.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.btRemoverClientes.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(38)))), ((int)(((byte)(46)))));
+            this.btRemoverClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btRemoverClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.btRemoverClientes.Location = new System.Drawing.Point(0, 40);
+            this.btRemoverClientes.Name = "btRemoverClientes";
+            this.btRemoverClientes.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btRemoverClientes.Size = new System.Drawing.Size(233, 40);
+            this.btRemoverClientes.TabIndex = 1;
+            this.btRemoverClientes.Text = "Remover Clientes";
+            this.btRemoverClientes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btRemoverClientes.UseVisualStyleBackColor = true;
+            this.btRemoverClientes.Click += new System.EventHandler(this.button3_Click);
             // 
             // btRegistrarClientes
             // 
@@ -525,7 +525,7 @@
         private System.Windows.Forms.Panel panelMediaSubMenu;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btRemoverClientes;
         private System.Windows.Forms.Button btRegistrarClientes;
         private System.Windows.Forms.Button btnMedia;
         private System.Windows.Forms.Panel panelPlaylistSubMenu;

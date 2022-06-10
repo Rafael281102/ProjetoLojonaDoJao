@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoLojonaDoJao
 {
-    partial class FormDelFunc
+    partial class FormDelCli
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace ProjetoLojonaDoJao
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDelFunc));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDelCli));
             this.SenhaMaster1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -83,7 +83,7 @@ namespace ProjetoLojonaDoJao
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
-            this.label1.Location = new System.Drawing.Point(70, 9);
+            this.label1.Location = new System.Drawing.Point(43, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 31);
             this.label1.TabIndex = 22;

@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace ProjetoLojonaDoJao
 {
-    public partial class FormDelFunc : Form
+    public partial class FormDelCli : Form
     {
-        public FormDelFunc()
+        public FormDelCli()
         {
             InitializeComponent();
         }

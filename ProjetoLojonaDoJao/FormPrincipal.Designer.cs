@@ -46,13 +46,7 @@ namespace ProjetoLojonaDoJao
             this.label6 = new System.Windows.Forms.Label();
             this.dtCadastro = new System.Windows.Forms.DateTimePicker();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.codigoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nomeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantiaDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tipoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataCadastroDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tabelaprodutoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);     
+            this.tabelaprodutoBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.txCodigo = new System.Windows.Forms.TextBox();
             this.lojonadojaoDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabelafuncioBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -228,13 +222,6 @@ namespace ProjetoLojonaDoJao
             this.dataGridView1.AutoGenerateColumns = false;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.codigoDataGridViewTextBoxColumn,
-            this.nomeDataGridViewTextBoxColumn,
-            this.quantiaDataGridViewTextBoxColumn,
-            this.precoDataGridViewTextBoxColumn,
-            this.tipoDataGridViewTextBoxColumn,
-            this.dataCadastroDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.tabelaprodutoBindingSource1;
             this.dataGridView1.Location = new System.Drawing.Point(231, 218);
             this.dataGridView1.Name = "dataGridView1";
@@ -242,61 +229,9 @@ namespace ProjetoLojonaDoJao
             this.dataGridView1.Size = new System.Drawing.Size(496, 150);
             this.dataGridView1.TabIndex = 41;
             // 
-            // codigoDataGridViewTextBoxColumn
-            // 
-            this.codigoDataGridViewTextBoxColumn.DataPropertyName = "Codigo";
-            this.codigoDataGridViewTextBoxColumn.HeaderText = "Codigo";
-            this.codigoDataGridViewTextBoxColumn.Name = "codigoDataGridViewTextBoxColumn";
-            this.codigoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.codigoDataGridViewTextBoxColumn.Width = 45;
-            // 
-            // nomeDataGridViewTextBoxColumn
-            // 
-            this.nomeDataGridViewTextBoxColumn.DataPropertyName = "Nome";
-            this.nomeDataGridViewTextBoxColumn.HeaderText = "Nome";
-            this.nomeDataGridViewTextBoxColumn.Name = "nomeDataGridViewTextBoxColumn";
-            this.nomeDataGridViewTextBoxColumn.ReadOnly = true;
-            this.nomeDataGridViewTextBoxColumn.Width = 103;
-            // 
-            // quantiaDataGridViewTextBoxColumn
-            // 
-            this.quantiaDataGridViewTextBoxColumn.DataPropertyName = "Quantia";
-            this.quantiaDataGridViewTextBoxColumn.FillWeight = 50F;
-            this.quantiaDataGridViewTextBoxColumn.HeaderText = "Quantia";
-            this.quantiaDataGridViewTextBoxColumn.Name = "quantiaDataGridViewTextBoxColumn";
-            this.quantiaDataGridViewTextBoxColumn.ReadOnly = true;
-            this.quantiaDataGridViewTextBoxColumn.Width = 50;
-            // 
-            // precoDataGridViewTextBoxColumn
-            // 
-            this.precoDataGridViewTextBoxColumn.DataPropertyName = "Preco";
-            this.precoDataGridViewTextBoxColumn.HeaderText = "Preco";
-            this.precoDataGridViewTextBoxColumn.Name = "precoDataGridViewTextBoxColumn";
-            this.precoDataGridViewTextBoxColumn.ReadOnly = true;
-            this.precoDataGridViewTextBoxColumn.Width = 75;
-            // 
-            // tipoDataGridViewTextBoxColumn
-            // 
-            this.tipoDataGridViewTextBoxColumn.DataPropertyName = "Tipo";
-            this.tipoDataGridViewTextBoxColumn.HeaderText = "Tipo";
-            this.tipoDataGridViewTextBoxColumn.Name = "tipoDataGridViewTextBoxColumn";
-            this.tipoDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // dataCadastroDataGridViewTextBoxColumn
-            // 
-            this.dataCadastroDataGridViewTextBoxColumn.DataPropertyName = "DataCadastro";
-            this.dataCadastroDataGridViewTextBoxColumn.HeaderText = "DataCadastro";
-            this.dataCadastroDataGridViewTextBoxColumn.Name = "dataCadastroDataGridViewTextBoxColumn";
-            this.dataCadastroDataGridViewTextBoxColumn.ReadOnly = true;
-            this.dataCadastroDataGridViewTextBoxColumn.Width = 80;
-            // 
             // tabelaprodutoBindingSource1
             // 
             this.tabelaprodutoBindingSource1.DataMember = "tabela_produto";
-            // 
-            // lojonadojaoDataSet1
-            // 
-//            this.lojonadojaoDataSet1.DataSetName = "lojonadojaoDataSet";
             // 
             // txCodigo
             // 
@@ -305,26 +240,13 @@ namespace ProjetoLojonaDoJao
             this.txCodigo.Size = new System.Drawing.Size(66, 20);
             this.txCodigo.TabIndex = 28;
             // 
-            // lojonadojaoDataSetBindingSource
-            // 
-            this.lojonadojaoDataSetBindingSource.Position = 0;
-            // 
-            // lojonadojaoDataSet
-            // 
-            // 
             // tabelafuncioBindingSource
             // 
             this.tabelafuncioBindingSource.DataMember = "tabela_funcio";
             // 
-            // tabela_funcioTableAdapter
-            // 
-            // 
             // tabelaprodutoBindingSource
             // 
             this.tabelaprodutoBindingSource.DataMember = "tabela_produto";
-            // 
-            // tabela_produtoTableAdapter
-            // 
             // 
             // btLimparPainel
             // 

@@ -30,7 +30,7 @@ namespace ProjetoLojonaDoJao
 
         private void btDeletar_Click(object sender, EventArgs e)
         {
-            FormDelFunc formDelFunc = new FormDelFunc();
+            FormDelCli formDelFunc = new FormDelCli();
             formDelFunc.Show();
         }
 
