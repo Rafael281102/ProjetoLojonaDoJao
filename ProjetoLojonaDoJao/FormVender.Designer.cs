@@ -43,8 +43,10 @@ namespace ProjetoLojonaDoJao
             // 
             // btCancelar
             // 
-            this.btCancelar.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.btCancelar.Location = new System.Drawing.Point(12, 180);
             this.btCancelar.Name = "btCancelar";
             this.btCancelar.Size = new System.Drawing.Size(149, 32);
@@ -56,8 +58,10 @@ namespace ProjetoLojonaDoJao
             // btVender
             // 
             this.btVender.AutoSize = true;
-            this.btVender.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.btVender.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btVender.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btVender.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btVender.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.btVender.Location = new System.Drawing.Point(241, 180);
             this.btVender.Name = "btVender";
             this.btVender.Size = new System.Drawing.Size(149, 32);
@@ -70,24 +74,26 @@ namespace ProjetoLojonaDoJao
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label1.Location = new System.Drawing.Point(78, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 31);
+            this.label1.Size = new System.Drawing.Size(228, 31);
             this.label1.TabIndex = 31;
-            this.label1.Text = "Vender um Produto";
+            this.label1.Text = "Venda do produto";
             // 
             // txNomeCliente
             // 
             this.txNomeCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txNomeCliente.Location = new System.Drawing.Point(137, 133);
             this.txNomeCliente.Name = "txNomeCliente";
-            this.txNomeCliente.Size = new System.Drawing.Size(253, 23);
+            this.txNomeCliente.Size = new System.Drawing.Size(182, 23);
             this.txNomeCliente.TabIndex = 38;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label7.Location = new System.Drawing.Point(9, 136);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(116, 17);
@@ -106,6 +112,7 @@ namespace ProjetoLojonaDoJao
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label3.Location = new System.Drawing.Point(9, 95);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 17);
@@ -116,6 +123,7 @@ namespace ProjetoLojonaDoJao
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label2.Location = new System.Drawing.Point(9, 58);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(122, 17);
@@ -133,7 +141,7 @@ namespace ProjetoLojonaDoJao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.ClientSize = new System.Drawing.Size(405, 227);
             this.Controls.Add(this.txCodigo);
             this.Controls.Add(this.btCancelar);

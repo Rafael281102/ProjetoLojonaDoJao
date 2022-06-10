@@ -51,7 +51,7 @@ namespace ProjetoLojonaDoJao
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.label3.Location = new System.Drawing.Point(13, 122);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(120, 17);
@@ -63,12 +63,12 @@ namespace ProjetoLojonaDoJao
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(108, 72);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.label2.Location = new System.Drawing.Point(32, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(25, 17);
+            this.label2.Size = new System.Drawing.Size(94, 17);
             this.label2.TabIndex = 18;
-            this.label2.Text = "ID:";
+            this.label2.Text = "ID Do Cliente:";
             // 
             // Id2
             // 
@@ -93,8 +93,10 @@ namespace ProjetoLojonaDoJao
             // BotaoConfrma1
             // 
             this.BotaoConfrma1.AutoSize = true;
-            this.BotaoConfrma1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.BotaoConfrma1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.BotaoConfrma1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotaoConfrma1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotaoConfrma1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.BotaoConfrma1.Location = new System.Drawing.Point(177, 180);
             this.BotaoConfrma1.Name = "BotaoConfrma1";
             this.BotaoConfrma1.Size = new System.Drawing.Size(149, 32);
@@ -105,8 +107,10 @@ namespace ProjetoLojonaDoJao
             // 
             // BotaoCancela1
             // 
-            this.BotaoCancela1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
+            this.BotaoCancela1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.BotaoCancela1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BotaoCancela1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BotaoCancela1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(221)))), ((int)(((byte)(225)))));
             this.BotaoCancela1.Location = new System.Drawing.Point(16, 180);
             this.BotaoCancela1.Name = "BotaoCancela1";
             this.BotaoCancela1.Size = new System.Drawing.Size(149, 32);
@@ -119,7 +123,7 @@ namespace ProjetoLojonaDoJao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(15)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.ClientSize = new System.Drawing.Size(341, 229);
             this.Controls.Add(this.BotaoCancela1);
             this.Controls.Add(this.BotaoConfrma1);

@@ -61,7 +61,7 @@
     <Compile Include="FormMenuFunc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMenuFunc.Designer.cs">
+    <Compile Include="FormMenuFunc.designer.cs">
       <DependentUpon>FormMenuFunc.cs</DependentUpon>
     </Compile>
     <Compile Include="FormPrincipal.cs">
@@ -83,6 +83,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarClientes.Designer.cs">
+      <DependentUpon>RegistrarClientes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +114,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrarClientes.resx">
+      <DependentUpon>RegistrarClientes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="lojonadojaoDataSet.xsc">
       <DependentUpon>lojonadojaoDataSet.xsd</DependentUpon>
     </None>
